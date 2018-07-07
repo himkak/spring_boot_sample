@@ -10,6 +10,6 @@ public class HelloController {
 	@RequestMapping(method=RequestMethod.GET,path="/hello")
 	public String hello() {
 		System.out.println("Inside hello method.");
-		return "Hello World";
+		return "Helloz World";
 	}
 }
